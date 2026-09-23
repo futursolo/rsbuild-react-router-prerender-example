@@ -1,0 +1,9 @@
+{
+  "name": "repro",
+  "private": true,
+  "workspaces": [
+    "vite-app",
+    "rsbuild-app"
+  ],
+  "packageManager": "yarn@4.18.0"
+}
