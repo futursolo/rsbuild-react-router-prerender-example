@@ -27,9 +27,3 @@ export function Layout({ children }: { children?: React.ReactNode }) {
 export default function Root() {
   return <h1>Root</h1>;
 }
-
-// A loader on the root route is what makes React Router issue a root data
-// request during prerendering (`/_.data` on Vite, `/_root.data` on Rsbuild).
-export async function loader() {
-  return { greeting: "hello from the root loader" };
-}
